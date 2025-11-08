@@ -1,0 +1,25 @@
+# ===================================
+# D?PENDANCES DU BOT TELEGRAM MULTI-AGENT
+# ===================================
+
+# Bot Telegram
+python-telegram-bot==21.0.1
+
+# APIs des mod?les IA
+openai==1.54.0                # API OpenAI (ChatGPT)
+anthropic==0.39.0             # API Anthropic (Claude)
+requests==2.32.3              # Pour DeepSeek API
+
+# Configuration
+python-dotenv==1.0.0          # Gestion des variables d'environnement
+
+# Utilitaires
+asyncio==3.4.3                # Gestion asynchrone (inclus dans Python 3.7+)
+
+# Logging et monitoring (optionnel)
+colorlog==6.8.2               # Logs color?s pour debug
+
+# ===================================
+# INSTALLATION
+# ===================================
+# pip install -r requirements.txt
