@@ -6,16 +6,17 @@
 python-telegram-bot==21.0.1
 
 # APIs des modèles IA
-openai==1.58.1                # API OpenAI (ChatGPT)
+openai==1.57.4                # API OpenAI (ChatGPT) - version stable compatible
 anthropic==0.39.0             # API Anthropic (Claude)
 requests==2.32.3              # Pour DeepSeek API
 
 # Configuration
 python-dotenv==1.0.0          # Gestion des variables d'environnement
 
-# Compatibilité
-httpx==0.28.1                 # Client HTTP (compatibilité OpenAI)
-httpcore==1.0.7               # Core HTTP pour httpx
+# Compatibilité HTTP (versions verrouillées pour compatibilité)
+httpx==0.27.0                 # Client HTTP
+httpcore==1.0.5               # Core HTTP pour httpx
+anyio==4.4.0                  # Async IO pour httpx
 
 # Logging et monitoring (optionnel)
 colorlog==6.8.2               # Logs colorés pour debug
